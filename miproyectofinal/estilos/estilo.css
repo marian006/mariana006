@@ -1,0 +1,113 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+	font-family:'Impact';
+	background-color:#F0E48E;
+	text-align:center;
+	color:#7F78D2;
+}
+
+body {
+	background:#89B5AF
+	font-family: 'Impact';
+}
+
+header {
+   background: #96C7C1;
+   width: 100%;
+   clear: both;
+   content:'';
+   display: table;
+}
+
+.menu {
+	width: 900px;
+	margin: 0 auto;
+}
+
+img {
+	
+  width: 90px;
+  height:80px;
+  float: left;
+  padding: 8px;
+  
+}
+#juguetesimagen {
+	
+  width: 300px;
+  height:300px;
+  float: left;
+  padding: 8px;
+  
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 12px 0;
+  float: left;
+
+}
+
+nav ul li a::before {
+  display: block;
+  content: '';
+  width: 0%;
+  background: #444;
+  height: 7px;
+  top:0;
+  position: absolute;
+  transition: widht 5s;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+ }
+ 
+*{
+	margin:0px;
+	padding:0px;
+}
+
+div#general{
+    margin:auto;
+    margin-top:0px;
+	width:960px;
+	height:500px;
+	background-color:white;
+}
+
+div#ofertas{
+	float:right;
+	width:300px;
+	height:500px;
+	background-color:#864879;
+	
+}
+
+img{
+	 width: 90px;
+     height:80px;
+}
+
+div#novedades{
+	width:640px;
+	height:200px;
+	background-color:#E9A6A6;
+}
+	
+div#cuerpo{
+	margin-top:10px;
+	width:640px;
+	height:295px;
+	background-color:#3F3351;
+}
